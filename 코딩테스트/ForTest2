@@ -1,0 +1,8 @@
+public class ForTest2 {
+    public static void main(String[] args) {
+        int temp = 11;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i+"\t"+(temp-i));
+        }
+    }
+}
